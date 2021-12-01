@@ -1,0 +1,23 @@
+@import "../../assets/styles/libs/vars";
+.notFoundPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  a {
+    box-shadow: $normalShadow;
+    text-decoration: none;
+    font-weight: $semiBoldFontWeight;
+    padding: 0.5rem 1rem;
+    margin-top: 15px;
+    //we set the color to inherit ,to tell it to ignore the default link behavior
+    color: inherit;
+    @media screen and(hover:hover) {
+      &:hover {
+        font-weight: $extraBoldFontWeight;
+      }
+    }
+  }
+}

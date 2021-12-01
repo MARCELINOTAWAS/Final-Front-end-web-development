@@ -1,0 +1,19 @@
+@import "../../assets/styles/libs/vars";
+@import "../../assets/styles/base/base";
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: $homePageItems;
+  color: $white;
+  a {
+    color: $white;
+    text-decoration: none !important;
+  }
+}
+
+// make the dashboard component take the
+//remaining height of the viewport
+.fillTheRemainingHeight {
+  flex-grow: 100;
+}

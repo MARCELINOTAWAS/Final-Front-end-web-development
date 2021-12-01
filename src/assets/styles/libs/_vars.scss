@@ -1,0 +1,52 @@
+// breakPoints
+$mobileBreakPoint: 375px;
+$tabletBreakPoint: 768px;
+$desktopBreakPoint: 1440px;
+
+// colors
+
+//neutral
+
+// dark mode elements
+$darkBlue: hsl(209, 23%, 22%);
+// dark mode background
+$veryDarkBlue: hsl(207, 26%, 17%);
+//light mode text
+$veryDarkBlue--lightMode: hsl(200, 15%, 8%);
+//light mode input
+$darkGray: hsl(0, 0%, 52%);
+//Light Mode Background
+$veryLightGray: hsl(0, 0%, 98%);
+//Dark Mode Text & Light Mode Elements
+$white: hsl(0, 0%, 100%);
+
+// typography
+// body copy
+$homePageItems: 14px;
+$detailsPage: 16px;
+$nunitoFontFamily: "Nunito Sans", sans-serif;
+$lightFontWeight: 300;
+$semiBoldFontWeight: 600;
+$extraBoldFontWeight: 800;
+// fontSizes
+$veryShortFontSize: 0.77rem;
+$shortFontSize: 0.9rem;
+$smallHeadingsFontSize: 105%;
+$normalHeadingsFontSize: 135%;
+// borderRadius
+$lightBorderRadius: 2.5px;
+$normalBorderRadius: 5px;
+// spacings
+$normalSpacing: 3.5rem;
+$lightSpacing: 2.5rem;
+$shortSpacing: 2rem;
+$littleShortSpacing: 1.3rem;
+$veryShortSpacing: 0.1rem;
+
+// lineHeights
+
+$normalLineHeight: 1.5;
+
+//boxShadows
+
+$normalShadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.20);

@@ -1,0 +1,36 @@
+@import "../../../App.scss";
+.pagination {
+  margin-top: 30px;
+  * {
+    font-size: 1.1rem;
+    font-weight: $extraBoldFontWeight;
+    user-select: none;
+  }
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    &:disabled {
+      cursor: default;
+      i {
+        color: $darkGray !important;
+      }
+    }
+  }
+  .nextPage {
+    i {
+      transform: rotate(180deg);
+    }
+  }
+  .isActive {
+    color: rgb(0, 166, 207);
+  }
+  //elipsis icon's styling
+  .elipsis {
+    cursor: default;
+    i {
+      color: $darkGray;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../../assets/styles/libs/vars";
+@import "../../../assets/styles/libs/mixins";
+.borderCountries {
+  h3 {
+    font-weight: $semiBoldFontWeight;
+    margin-right: 20px;
+  }
+  a {
+    @include boxShadowGenerator($normalShadow);
+    border-radius: $lightBorderRadius;
+    padding: 0.3rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 12px 12px 0;
+    //media query for the devices which support hovering effects
+    @media screen and (hover: hover) {
+      &:hover {
+        font-weight: $semiBoldFontWeight;
+      }
+    }
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and(min-width:$tabletBreakPoint) {
+    display: flex;
+    margin-top: 3rem;
+    h3 {
+      width: 160px;
+      margin: 0 20px 0 0;
+    }
+  }
+}
